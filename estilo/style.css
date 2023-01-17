@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html, body{
+    height: 100%;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.clear{
+    clear: both;
+}
+
+header{
+    width: 100%;
+    height: 95vh;
+    min-height: 800px;
+    padding: 40px 2%;
+    background-image: url('../imagens/bg1.png');
+    background-size: cover;
+}
+
+header nav{
+    float: right;
+}
+
+header nav.desktop-menu ul{
+    list-style: none;
+}
+
+header nav.desktop-menu li{
+    float: left;
+    padding: 0 20px;
+}
+
+header nav.desktop-menu li a{
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    transition: .5s;
+}
+
+header nav.desktop-menu li a:hover{
+    color: #ff703d;
+}
+
+header .logo{
+    width: 200px;
+    height: 60px;
+    position: relative;
+    background-color: #ff703d;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+header .logo p{
+    font-size: 2.0em;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 6px;
+}
+
+.chamada1{
+    max-width: 600px;
+    float: right;
+    margin: 200px 150px;
+}
+
+.chamada1 h4{
+    font-weight: 200;
+    color: white;
+}
+
+.chamada1 h2{
+    font-weight: 300;
+    font-size: 40px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.chamada1 h3{
+    font-weight: 800;
+    font-size: 40px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.chamada1 p{
+    font-size: 15px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+ .chamada1 button{
+    padding: 10px 20px;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    background: #fed24d;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+ }
+
+ .chamada1 button:hover{
+    background: #df4e1d;
+    color: white;
+ }
+
+ section.sessao1{
+    width: 100%;
+    background: #ff703d;
+    padding: 0 2%;
+    height: 400px;
+ }
+
+ section.sessao1 .container{
+    max-width: 1000px;
+    height: calc(100% + 30px);
+ }
+
+ .texto-sessao1{
+    float: left;
+    width: 50%;
+    position: relative;
+    left: 55px;
+    margin-top: 60px;
+    padding-left: 80px;
+    color: #192123;
+ }
+
+ .texto-sessao1 h2{
+    font-size: 26px;
+    font-weight: 600;
+    text-transform: uppercase;
+ }
+
+ .texto-sessao1 p{
+    margin-top: 20px;
+    font-size: 15px;
+    font-style: italic;
+
+ }
+
+ .texto-sessao1 ul{
+    font-size: 15px;
+    list-style-position: outside;
+    padding-left: 15px;
+
+ }
+
+ .texto-sessao1 ul li{
+    width: 100%;
+    margin-top: 8px;
+ }
+
+ .btn1-texto{
+    background: #192123;
+    width: 165px;
+    height: 44px;
+    font-size: 13px;
+    color: white;
+    margin-top: 30px;
+    text-align: center;
+    line-height: 44px;
+    border-radius: 30px;
+    cursor: pointer;
+ }
